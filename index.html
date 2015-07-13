@@ -1,1 +1,25 @@
-My Page
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title></title>
+  <link href="styles/app.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/badges.css">
+</head>
+<body>
+  <div class="report-card treehouse"></div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="scripts/app.js"></script>
+  <script src="js/reportcard.js"></script>
+  <script>
+    $('.report-card.treehouse').reportCard({
+        userName: 'hernangarzon',
+        site: 'treehouse',
+        badgesAmount: 7
+    });
+  </script>
+
+</body>
+</html>
